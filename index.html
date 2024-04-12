@@ -117,7 +117,7 @@
         let obstacleTop = parseInt(obstacleStyle.top);
 
         // Verplaats de obstakels naar boven en onder
-        obstacleTop += Math.random() > 1.5 ? 60 : -50;
+        obstacleTop += Math.random() > 1.5 ? 20 : -20;
         
         // Controleer de bovenste en onderste grenzen
         obstacleTop = Math.max(Math.min(obstacleTop, container.clientHeight - obstacle.clientHeight), 0);
